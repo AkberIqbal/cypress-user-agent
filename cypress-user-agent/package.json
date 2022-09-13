@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "test:cyp": "yarn run cypress open",
+    "test:cyp": "yarn run cypress open --config-file cypress/cypress.config.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
