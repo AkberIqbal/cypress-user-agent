@@ -7,5 +7,6 @@ describe("index", () => {
     console.log('Window User Agent: ' + /iPad|iPhone|iPod/.test(navigator.userAgent))
     console.log('Window msstream: ' + !window.MSStream)
     console.log('document ontouchend: ' + document.ontouchend)
+    console.log('document: ' + JSON.stringify(document))
   });
 });
