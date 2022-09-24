@@ -4,8 +4,7 @@ import "./App.css";
 const isiOSDevice = () =>
   navigator.vendor === "Apple Computer, Inc." ||
   (/iPad|iPhone|iPod/.test(navigator.userAgent) &&
-    !window.MSStream &&
-    "ontouchend" in document);
+    !window.MSStream);
 
 function App() {
   const isIOS = isiOSDevice();
